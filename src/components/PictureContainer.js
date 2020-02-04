@@ -12,8 +12,6 @@ console.log(data.url)
 return(
 
     <div>
-    <h2>Here Picture and Explanation Components</h2>
-
     
     <PictureComponent imgUrl={data.url}/>
     <InfoComponent title={data.title} copy={data.copyright} explanation={data.explanation}/>

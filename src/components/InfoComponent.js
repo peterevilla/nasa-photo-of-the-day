@@ -1,4 +1,5 @@
 import React from 'react'
+import "../App.css";
 
 
 
@@ -14,8 +15,8 @@ return(
     
 <h3>Title: {props.title} </h3>
      
-     <p>Copyright: {props.copy} </p>
-<p>Explanation: {props.explanation} </p>
+    <p>Copyright: {props.copy} </p>
+    <p className="exp" >Explanation: {props.explanation} </p>
     
 
 </div>
