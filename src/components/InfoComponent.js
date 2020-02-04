@@ -3,14 +3,22 @@ import React from 'react'
 
 
 
-function InfoComponent() {
+const InfoComponent = props => {
 
 
 
 return(
 
 
-<h3>Info Component</h3>
+<div>
+    
+<h3>Title: {props.title} </h3>
+     
+     <p>Copyright: {props.copy} </p>
+<p>Explanation: {props.explanation} </p>
+    
+
+</div>
 
 
 )

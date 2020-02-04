@@ -16,7 +16,7 @@ return(
 
     
     <PictureComponent imgUrl={data.url}/>
-    <InfoComponent/>
+    <InfoComponent title={data.title} copy={data.copyright} explanation={data.explanation}/>
 
     </div>
 
