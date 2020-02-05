@@ -50,7 +50,7 @@ console.log(tday)
 
       <PictureContainer data={nasaData} />
       
-     <h3>Select a day</h3>
+     <h3>Select a date:</h3>
      <DatePicker
       dateFormat="yyyy-MM-dd"
       selected={startDate}
