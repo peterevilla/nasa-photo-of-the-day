@@ -7,7 +7,6 @@ import InfoComponent from './InfoComponent'
 
 const PictureContainer = ({data}) => {
 
-console.log(data.url)
 
 return(
 
