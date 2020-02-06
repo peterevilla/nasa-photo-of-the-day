@@ -39,6 +39,11 @@ console.log(tday)
       .catch(error => console.log(error));
   }, [tday]);
 
+  const Input = ({ value, onClick }) => (
+    <button className="custom-input" onClick={onClick}>
+      {value}
+    </button>
+  );
 
   return (
     <div className="App">
@@ -59,6 +64,11 @@ console.log(tday)
       dateFormat="yyyy-MM-dd"
       selected={startDate}
       onChange={date => setStartDate(date)}
+      peekNextMonth
+      showMonthDropdown
+      showYearDropdown
+      dropdownMode="select"
+      customInput={<Input />}
     />
     </div>
 

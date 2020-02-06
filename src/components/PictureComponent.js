@@ -1,4 +1,5 @@
 import React from 'react'
+import CarImg, { CardImg } from 'reactstrap'
 
 
 
@@ -11,7 +12,7 @@ const PictureComponent = props => {
 return(
 
 
- <img className='pic' src={props.imgUrl} alt={props.title} ></img>
+ <CardImg className='pic' src={props.imgUrl} alt={props.title} ></CardImg>
 
 
 )

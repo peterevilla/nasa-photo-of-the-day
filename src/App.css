@@ -1,7 +1,4 @@
-* {
 
-  background-color: lightcyan;
-}
 
 .App {
   text-align: center;
@@ -55,4 +52,11 @@
 .pic {
 
   border: 1px solid black;
+}
+
+
+
+.custom-input {
+
+  background-color: silver;
 }
