@@ -43,20 +43,24 @@ console.log(tday)
   return (
     <div className="App">
       
+      
       <h1>Astronomy Picture of the Day </h1>
       <p>
       Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. 
       </p>
 
+      <div>
       <PictureContainer data={nasaData} />
+      </div>
       
+     <div className='date'> 
      <h3>Select a date:</h3>
      <DatePicker
       dateFormat="yyyy-MM-dd"
       selected={startDate}
       onChange={date => setStartDate(date)}
     />
-
+    </div>
 
 
     </div>

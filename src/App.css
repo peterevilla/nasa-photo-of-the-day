@@ -1,3 +1,8 @@
+* {
+
+  background-color: lightcyan;
+}
+
 .App {
   text-align: center;
 }
@@ -39,4 +44,15 @@
   width: 70%;
   margin-left: 15%;
 
+}
+
+
+.date {
+
+  margin-bottom: 10%;
+}
+
+.pic {
+
+  border: 1px solid black;
 }

@@ -11,7 +11,7 @@ const PictureComponent = props => {
 return(
 
 
- <img src={props.imgUrl} alt={props.title} ></img>
+ <img className='pic' src={props.imgUrl} alt={props.title} ></img>
 
 
 )
